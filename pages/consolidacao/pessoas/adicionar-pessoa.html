@@ -7,7 +7,7 @@
   <link rel="icon" type="image/png" href="../../../assets/img/favicon.png">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>
-    ACELL - Sistema de Gestão de Células
+    Central de Consolidação - Adicionar Pessoa
   </title>
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
   <!--     Fonts and icons     -->
@@ -22,7 +22,7 @@
 
 <body class="">
   <div class="wrapper ">
-    <div class="sidebar" data-color="azure" data-background-color="black" data-image="../../../assets/img/sidebar-1.jpg">
+    <div class="sidebar" data-color="orange" data-background-color="black" data-image="../../../assets/img/sidebar-1.jpg">
       <!--
         Tip 1: You can change the color of the sidebar using: data-color="purple | azure | green | orange | danger"
 
@@ -30,73 +30,35 @@
     -->
       <div class="logo">
         <a href="#" class="simple-text logo-normal">
-          ACELL
+          SGC
         </a>
       </div>
       <div class="sidebar-wrapper">
         <ul class="nav">
-          <li class="nav-item  ">
+
+          <li class="nav-item ">
             <a class="nav-link" href="../../../home.html">
               <i class="material-icons">home</i>
-              <p>Home</p>
+              <p>Início</p>
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="dashboard.html">
-              <i class="material-icons">dashboard</i>
+
+          <li class="nav-item ">
+            <a class="nav-link" href="../../../dashboard.html">
+              <i class="material-icons">analytics</i>
               <p>Dashboard</p>
             </a>
           </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="perfil.html">
-              <i class="material-icons">person_pin</i>
-              <p>Meu Perfil</p>
-            </a>
-          </li>
-          <li class="nav-item active  ">
-            <a class="nav-link" href="pessoas.html">
-              <i class="material-icons">person</i>
-              <p>Pessoas</p>
-            </a>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="celula.html">
-              <i class="material-icons">bubble_chart</i>
-              <p>Célula</p>
-            </a>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="consolidacao.html">
+        
+          <li class="nav-item active">
+            <a class="nav-link" href="../../../consolidacao.html">
               <i class="material-icons">people</i>
               <p>Consolidação</p>
             </a>
           </li>
+      
           <li class="nav-item ">
-            <a class="nav-link" href="tesouraria.html">
-              <i class="material-icons">account_balance</i>
-              <p>Tesouraria</p>
-            </a>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="relatorios.html">
-              <i class="material-icons">description</i>
-              <p>Relatórios</p>
-            </a>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="graficos.html">
-              <i class="material-icons">show_chart</i>
-              <p>Gráficos</p>
-            </a>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="informativo.html">
-              <i class="material-icons">info</i>
-              <p>Painel Informativo</p>
-            </a>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="administracao.html">
+            <a class="nav-link" href="../../../administracao.html">
               <i class="material-icons">laptop_mac</i>
               <p>Administração</p>
             </a>
@@ -110,7 +72,7 @@
       <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ">
         <div class="container-fluid">
           <div class="navbar-wrapper">
-            <a class="navbar-brand" href="../consolidadores.html">Consolidadores</a>
+            <a class="navbar-brand" href="../pessoas.html">Pessoas</a>
           </div>
           <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
             <span class="sr-only">Toggle navigation</span>
@@ -153,26 +115,26 @@
                 <div class="card-body">
                   <form>
                     <div class="card card-profile">
-                        <div class="fileinput fileinput-new text-center" data-provides="fileinput">
-                            <div class="fileinput-new thumbnail img-circle img-raised">
-                            <img src="../../../assets/img/foto-membro.png" alt="...">
-                            </div>
-                            <div class="fileinput-preview fileinput-exists thumbnail img-circle img-raised"></div>
-                            <div>
-                            <span class="btn btn-raised btn-round btn-default btn-file">
-                                <span class="fileinput-new">Adicionar Foto</span>
-                            <span class="fileinput-exists">Alterar</span>
-                            <input type="file" name="..." /></span>
-                                <br />
-                                <a href="#pablo" class="btn btn-danger btn-round fileinput-exists" data-dismiss="fileinput"><i class="fa fa-times"></i> Remover</a>
-                            </div>
-                        </div>
-                     
+                      <div class="fileinput fileinput-new text-center" data-provides="fileinput">
+                          <div class="fileinput-new thumbnail  img-raised">
+                          <img src="../../../assets/img/foto-membro.png" alt="...">
+                          </div>
+                          <div class="fileinput-preview fileinput-exists thumbnail img-raised"></div>
+                          <div>
+                          <span class="btn btn-raised btn-round btn-default btn-file">
+                              <span class="fileinput-new">Adicionar Foto</span>
+                          <span class="fileinput-exists">Alterar</span>
+                          <input type="file" name="..." /></span>
+                              <br />
+                              <a href="#pablo" class="btn btn-danger btn-round fileinput-exists" data-dismiss="fileinput"><i class="fa fa-times"></i> Remover</a>
+                          </div>
                       </div>
+                   
+                    </div>
                                           
-                      <div class="row">
+                    <div class="row">
                       
-                      <div class="col-md-5">
+                      <div class="col-md-12">
                         <div class="form-group">
                           <label class="bmd-label-floating">Nome</label>
                           <input type="text" class="form-control">
@@ -199,71 +161,67 @@
                           </div>
                         </div>
                       </div>
-                      <div class="col-md-2">
+                      <div class="col-md-3">
                         <div class="form-group">
                           <label class="form-group">Data de Nascimento</label>
                           <input type="date" class="form-control">
                         </div>
                       </div>
-                      <div class="col-md-2">
+                      <div class="col-md-6">
                          <div class="form-group" style="margin-top: 0px;">
                           <label for="estcivil" class="form-group" >Estado Civil</label><br>
                           <select class="selectpicker" data-style="select-with-transition" title="- Estado Civil -" data-size="7" id="estcivil" >
-                            <option value="1">Choose city</option>
-                            <option value="2">Foobar</option>
-                            <option value="3">Is great</option>
+                            <option value="1">Casado(a)</option>
+                            <option value="2">Solteiro(a)</option>
+                            <option value="3">União Estável</option>
                         </select>
                         </div>
                       </div>
                     </div>
                    
                     <div class="row">
-                      <div class="col-md-3">
+                      <div class="col-md-6">
                         <div class="form-group">
                           <label class="bmd-label-floating">Endereço</label>
                           <input type="text" class="form-control">
                         </div>
                       </div>
-                      <div class="col-md-1">
+                      <div class="col-md-2">
                         <div class="form-group">
                           <label class="bmd-label-floating">Número</label>
                           <input type="text" class="form-control">
                         </div>
                       </div>
-                      <div class="col-md-1">
+                      <div class="col-md-4">
                         <div class="form-group">
                           <label class="bmd-label-floating">Complemento</label>
                           <input type="text" class="form-control">
                         </div>
                       </div>
                    
-                    <div class="col-md-2">
+                    <div class="col-md-3">
                       <div class="form-group">
                         <label class="bmd-label-floating">Bairro</label>
                         <input type="text" class="form-control">
                       </div>
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-md-3">
                       <div class="form-group">
                         <label class="bmd-label-floating">Cidade</label>
                         <input type="text" class="form-control">
                       </div>
                     </div>
-                    <div class="col-md-2">
-                      
-                        <div class="form-group" style="margin-top: 0px;">
-                          <label for="uf" class="bmd-label-floating" >UF</label><br>
-                          <select class="selectpicker" data-style="select-with-transition" title="- UF -" data-size="10" id="uf">
-                            <option value="1">AC</option>
-                            <option value="2">SP</option>
-                            <option value="3">RJ</option>
-                        </select>
-                        </div>
-                     
+                  
+                    <div class="col-md-3">
+                      <div class="form-group">
+                        <label class="bmd-label-floating">CEP</label>
+                        <input type="text" class="form-control">
                       </div>
-                      <div class="col-md-1">
+                    </div>
+
+                      <div class="col-md-3">
                         <div class="form-group">
-                          <label class="bmd-label-floating">CEP</label>
+                          <label class="bmd-label-floating">Referência</label>
                           <input type="text" class="form-control">
                         </div>
                       </div>
@@ -271,230 +229,108 @@
                  
                 
                     <div class="row">
-                      <div class="col-md-2">
+                      <div class="col-md-6">
+                        <div class="form-group" style="margin-top: 0px;">
+                         <label for="estcivil" class="form-group" >Tipo de Decisão</label><br>
+                         <select class="selectpicker" data-style="select-with-transition" title="- Tipo de Decisão -" data-size="7" id="estcivil" >
+                           <option value="1">Casado(a)</option>
+                           <option value="2">Solteiro(a)</option>
+                           <option value="3">União Estável</option>
+                       </select>
+                       </div>
+                     </div>
+                      
+                      <div class="col-md-3">
                         <div class="form-group">
-                          <label class="bmd-label-floating">RG</label>
+                          <label class="bmd-label-floating">Telefone 1</label>
+                          <input type="text" class="form-control" name="telefone1" >
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="form-group">
+                          <label class="bmd-label-floating">Telefone 2</label>
                           <input type="text" class="form-control">
                         </div>
                       </div>
-                      <div class="col-md-2">
-                        <div class="form-group">
-                          <label class="bmd-label-floating">CPF</label>
-                          <input type="text" class="form-control">
-                        </div>
-                      </div>
-                      <div class="col-md-2">
-                        <div class="form-group">
-                          <label class="bmd-label-floating">Telefone</label>
-                          <input type="text" class="form-control" name="telefone" >
-                        </div>
-                      </div>
-                      <div class="col-md-2">
-                        <div class="form-group">
-                          <label class="bmd-label-floating">Celular</label>
-                          <input type="text" class="form-control">
-                        </div>
-                      </div>
-                      <div class="col-md-4">
-                        <div class="form-group">
-                          <label class="bmd-label-floating">E-mail</label>
-                          <input type="email" class="form-control">
-                        </div>
-                      </div>
+                     
                        
                     </div>
                     <div class="row">
                      
-                      <div class="col-md-2">
-                        <div class="form-group">
-                          <label class="bmd-label-floating">Profissão</label>
-                          <input type="text" class="form-control">
-                        </div>
-                      </div>
+                      
                       <div class="col-md-3">
                       
                         <div class="form-group" style="margin-top: 0px;">
-                          <label for="grauinst" class="form-group" >Grau de Instrução</label><br>
-                          <select class="selectpicker" data-style="select-with-transition" title="- Grau de Instrução -" data-size="10" id="grauinst">
-                            <option value="1">Ensino Fundamental Completo</option>
-                            <option value="2">Ensino Médio Completo</option>
-                            <option value="3">Ensino Superior Completo</option>
+                          <label for="visita" class="form-group" >Melhor dia para visitas</label><br>
+                          <select class="selectpicker" data-style="select-with-transition" title="- Selecione -" data-size="10" id="grauinst">
+                            <option value="1">Domingo</option>
+                            <option value="2">Segunda-Feira</option>
+                            <option value="3">Terça-Feira</option>
+                            <option value="4">Quarta-Feira</option>
+                            <option value="5">Quinta-Feira</option>
+                            <option value="6">Sexta-Feira</option>
+                            <option value="7">Sábado</option>
                         </select>
                         </div>
                      
                       </div>
-                      <div class="col-md-2">
-                        <div class="form-group">
-                          <label class="form-group">É batizado(a)?</label><br>
-                          <div class="form-check form-check-radio form-check-inline">
-                            <label class="form-check-label">
-                              <input class="form-check-input" type="radio" name="batizado" id="inlineRadio1" value="sim" > Sim
-                              <span class="circle">
-                                  <span class="check"></span>
-                              </span>
-                            </label>
-                          </div>
-                          <div class="form-check form-check-radio form-check-inline">
-                            <label class="form-check-label">
-                              <input class="form-check-input" type="radio" name="batizado" id="inlineRadio2" value="não" > Não
-                              <span class="circle">
-                                  <span class="check"></span>
-                              </span>
-                            </label>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-2" id="dtbatismo">
-                        <div class="form-group">
-                          <label class="bmd-label-floating" id="dtbatismo">Data do Batismo</label>
-                          <input type="date" class="form-control" name="dtbatismo" id="dtbatismo">
-                        </div>
-                      </div>
-                      <div class="col-md-3" id="igrejabatismo">
-                        <div class="form-group">
-                          <label class="bmd-label-floating" id="igrejabatismo">Igreja de Batismo</label>
-                          <input type="text" class="form-control" name="igrejabatismo" id="igrejabatismo"> 
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row">
-                            
+                      
                       <div class="col-md-3">
                       
                         <div class="form-group" style="margin-top: 0px;">
-                          <label for="celula" class="form-group" >Célula</label><br>
-                          <select class="selectpicker" data-style="select-with-transition" title="- Célula -" data-size="3" id="celula">
-                            <option value="1">Maná de Deus</option>
-                          
+                          <label for="horario" class="form-group" >Horário da visita</label><br>
+                          <select class="selectpicker" data-style="select-with-transition" title="- Selecione -" data-size="10" id="grauinst">
+                            <option value="1">Manhã</option>
+                            <option value="2">Tarde</option>
+                            <option value="3">Noite</option>
+                            
                         </select>
                         </div>
                      
-                      </div>
-                      <div class="col-md-2">
-                        <div class="form-group">
-                          <label class="form-group">Já foi ao Encontro com Deus ?</label><br>
-                          <div class="form-check form-check-radio form-check-inline">
-                            <label class="form-check-label">
-                              <input class="form-check-input" type="radio" name="encontro" id="inlineRadio1" value="sim" > Sim
-                              <span class="circle">
-                                  <span class="check"></span>
-                              </span>
-                            </label>
-                          </div>
-                          <div class="form-check form-check-radio form-check-inline">
-                            <label class="form-check-label">
-                              <input class="form-check-input" type="radio" name="encontro" id="inlineRadio2" value="não" > Não
-                              <span class="circle">
-                                  <span class="check"></span>
-                              </span>
-                            </label>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-2">
-                        <div class="form-group">
-                          <label class="form-group">Fez o Curso de Crescimento Espiritual?</label><br>
-                          <div class="form-check form-check-radio form-check-inline">
-                            <label class="form-check-label">
-                              <input class="form-check-input" type="radio" name="crescespiritual" id="inlineRadio1" value="sim" > Sim
-                              <span class="circle">
-                                  <span class="check"></span>
-                              </span>
-                            </label>
-                          </div>
-                          <div class="form-check form-check-radio form-check-inline">
-                            <label class="form-check-label">
-                              <input class="form-check-input" type="radio" name="crescespiritual" id="inlineRadio2" value="não" > Não
-                              <span class="circle">
-                                  <span class="check"></span>
-                              </span>
-                            </label>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-2">
-                        <div class="form-group">
-                          <label class="form-group">Fez o Curso de Maturidade no Espírito?</label><br>
-                          <div class="form-check form-check-radio form-check-inline">
-                            <label class="form-check-label">
-                              <input class="form-check-input" type="radio" name="maturidade" id="inlineRadio1" value="sim" > Sim
-                              <span class="circle">
-                                  <span class="check"></span>
-                              </span>
-                            </label>
-                          </div>
-                          <div class="form-check form-check-radio form-check-inline">
-                            <label class="form-check-label">
-                              <input class="form-check-input" type="radio" name="maturidade" id="inlineRadio2" value="não" > Não
-                              <span class="circle">
-                                  <span class="check"></span>
-                              </span>
-                            </label>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-3">
-                        <div class="form-group">
-                          <label class="form-group">Fez o Curso de Treinamento de Líderes?</label><br>
-                          <div class="form-check form-check-radio form-check-inline">
-                            <label class="form-check-label">
-                              <input class="form-check-input" type="radio" name="ctl" id="inlineRadio1" value="sim" > Sim
-                              <span class="circle">
-                                  <span class="check"></span>
-                              </span>
-                            </label>
-                          </div>
-                          <div class="form-check form-check-radio form-check-inline">
-                            <label class="form-check-label">
-                              <input class="form-check-input" type="radio" name="ctl" id="inlineRadio2" value="não" > Não
-                              <span class="circle">
-                                  <span class="check"></span>
-                              </span>
-                            </label>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                   
-                    <div class="row">
-                      <div class="col-md-4">
-                        <div class="form-group" style="margin-top: 0px;">
-                          <label for="posicao" class="form-group" >Posição</label><br>
-                          <select class="selectpicker" data-style="select-with-transition" title="- Posição -" data-size="7" id="posicao">
-                            <option value="1">Líder de Célula</option>
-                            <option value="2">Líder em Treinamento</option>
-                            <option value="3">Membro</option>
-                            <option value="4">Frequentador Assíduo</option>
-                            <option value="5">Visitante</option>
-                        </select>
-                        </div>
-                      </div>
-                      <div class="col-md-4">
-                        <div class="form-group" style="margin-top: 0px;">
-                          <label for="situacao" class="form-group" >Situação</label><br>
-                          <select class="selectpicker" data-style="select-with-transition" title="- Situação -" data-size="7" id="situacao">
-                            <option value="1">Ativo</option>
-                            <option value="2">Inativo</option>
-                            <option value="3">Afastado</option>
-                            <option value="4">Falecido</option>
-                            
-                        </select>
-                        </div>
-                      </div>
-                      <div class="col-md-4">
-                        <div class="form-group" style="margin-top: 0px;">
-                          <label for="login" class="form-group" >Login do Sistema</label><br>
-                          <select class="selectpicker" data-style="select-with-transition" title="- Login do Sistema -" data-size="7" id="login">
-                            <option value="1">vteixeira</option>
-                            <option value="2">jbruno</option>
-                            <option value="3">mferreira</option>
-                            <option value="4">sferreira</option>
-                            
-                        </select>
-                        </div>
                       </div>
 
-                     </div>
+                      <div class="col-md-3">
+                        <div class="form-group">
+                          <label class="form-group">Seguia outra Religião?</label><br>
+                          <div class="form-check form-check-radio form-check-inline">
+                            <label class="form-check-label">
+                              <input class="form-check-input" type="radio" name="religiao" id="inlineRadio1" value="sim" > Sim
+                              <span class="circle">
+                                  <span class="check"></span>
+                              </span>
+                            </label>
+                          </div>
+                          <div class="form-check form-check-radio form-check-inline">
+                            <label class="form-check-label">
+                              <input class="form-check-input" type="radio" name="religiao" id="inlineRadio2" value="não" > Não
+                              <span class="circle">
+                                  <span class="check"></span>
+                              </span>
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                      
+                        <div class="form-group" style="margin-top: 0px;">
+                          <label for="relig" class="form-group" >Selecione a Religião</label><br>
+                          <select class="selectpicker" data-style="select-with-transition"  name="relig" title="- Selecione -" data-size="10" id="relig">
+                            <option value="1">Catolicismo</option>
+                            <option value="2">Umbanda</option>
+                            <option value="3">Candomblé</option>
+                            <option value="4">Espiritismo</option>
+                            <option value="5">Islamismo</option>
+                            <option value="6">Judaísmo</option>
+                            <option value="7">Outra</option>
+                            
+                        </select>
+                        </div>
+                     
+                      </div>
+                     
+                    </div>
+                  
+               
                     <button type="submit" class="btn btn-primary pull-right">Salvar Dados</button>
                     <div class="clearfix"></div>
                   </form>
@@ -550,16 +386,16 @@
   <script>
   $(document).ready(function() {
     $(document).ready(function() {
-            $("#dtbatismo, #igrejabatismo").hide();
+            $("#relig").hide();
           });
 
-    $('input:radio[name="batizado"]').on("change", function() {
+    $('input:radio[name="religiao"]').on("change", function() {
         if (this.checked && this.value == 'sim') {
-            $("#dtbatismo, #igrejabatismo").show();
+            $("#relig").show();
          
         } else {
       
-            $("#dtbatismo, #igrejabatismo").hide();
+            $("#relig").hide();
         }
     });
 });
